@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Clear Cache Extension 🔄",
+  "version": "1.2",
+  "description": "Extension to clear browser cache and refresh page in real time for all your necessary needs ♻️",
+  "permissions": [
+    "browsingData",
+    "tabs"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
